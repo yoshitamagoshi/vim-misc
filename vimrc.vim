@@ -282,7 +282,7 @@ let g:sql_type_default = 'pgsql'
 "----------------------------------------------------------------------
 if has("nvim")
   " Find files using Telescope command-line sugar.
-  nnoremap <leader>f <cmd>Telescope find_files<cr>
+  nnoremap <leader>p <cmd>Telescope find_files<cr>
   nnoremap <leader>r <cmd>Telescope live_grep<cr>
   nnoremap <leader>b <cmd>Telescope buffers<cr>
   nnoremap <leader>h <cmd>Telescope help_tags<cr>

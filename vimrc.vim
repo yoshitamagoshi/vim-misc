@@ -129,7 +129,7 @@ else
 endif
 
 " Shortcut to edit the vimmisc
-nmap <silent> <leader>vimmisc :execute "e " . g:vim_home_path . "/vim-misc/vimrc.vim"<CR>
+nmap <silent> <leader>vimmisc :execute "e " . g:vim_home_path . "/plugged/vim-misc/vimrc.vim"<CR>
 
 " Make navigating around splits easier
 nnoremap <C-j> <C-w>j

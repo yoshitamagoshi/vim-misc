@@ -121,9 +121,8 @@ map k gk
 nmap <leader>cd :cd %:h<CR>
 nmap <leader>lcd :lcd %:h<CR>
 
-" Shortcut to edit the vimrc
 if has("nvim")
-    nmap <silent> <leader>vimrc :e ~/nvim/init.vim<CR>
+    nmap <silent> <leader>vimrc :e ~/.config/nvim/init.vim<CR>
 else
     nmap <silent> <leader>vimrc :e ~/.vimrc<CR>
 endif

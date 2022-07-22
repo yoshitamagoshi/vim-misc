@@ -69,6 +69,7 @@ set wildignore+=*.rbc         " Ignore Rubinius compiled files
 set wildignore+=*.swp         " Ignore vim backups
 
 " GUI settings
+syntax enable
 colorscheme dracula
 
 " This is required to force 24-bit color since I use a modern terminal.

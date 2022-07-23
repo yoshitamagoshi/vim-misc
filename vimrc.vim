@@ -69,7 +69,6 @@ set wildignore+=*.rbc         " Ignore Rubinius compiled files
 set wildignore+=*.swp         " Ignore vim backups
 
 " GUI settings
-syntax enable
 colorscheme dracula
 
 " This is required to force 24-bit color since I use a modern terminal.
@@ -200,10 +199,10 @@ cnoremap <C-f> <Right><Right><Right><Right><Right>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
 let NERDTreeShowHidden=1
+
 " open NERDTREE to current buffer
-map <leader>w :NERDTreeFind<CR>
+map <leader>r :NERDTreeFind<CR>
 
 " Git vim fugitive pick left or pick right respectively in merge edit mode
 nmap <leader>gj :diffget //3<CR>

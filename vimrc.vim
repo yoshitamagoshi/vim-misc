@@ -202,7 +202,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 
 " open NERDTREE to current buffer
-map <leader>w :NERDTreeFind<CR>
+nnoremap <leader>w :NERDTreeFind<CR>
 
 " Git vim fugitive pick left or pick right respectively in merge edit mode
 nmap <leader>gj :diffget //3<CR>
